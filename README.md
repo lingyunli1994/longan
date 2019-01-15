@@ -21,7 +21,8 @@
   <br>
 ## 深度学习 <br>
 * [可行驶道路检测代码KittiSeg](https://github.com/MarvinTeichmann/KittiSeg)<br>
-
+  <br>
+  <br>
 ## 自动驾驶论文翻译 <br>
 * [业界 | 反GAN传统，Petuum自动驾驶新研究提出从复杂真实图像生成简单虚拟表征以预测驾驶指令](http://www.sohu.com/a/217635677_465975)<br>
 * [从虚拟世界伸到现实的机械臂，靠摄像机就能玩转任何物体](https://www.jiqizhixin.com/articles/2018-07-31-5)<br>
