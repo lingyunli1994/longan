@@ -48,6 +48,7 @@
 * [CODE-Virtual to Real Reinforcement Learning for Autonomous Driving](https://github.com/xinleipan/VirtualtoReal-RL)<br>
 * [CODE-TORCS for Reinforcement Learning（可能是多车环境）](https://github.com/YurongYou/rlTORCS)<br>
 * [CODE-auto_car_experience_training(DDPG的改进)](https://github.com/QiyuZ/auto_car_experience_training)<br>
+* [CODE-Deep Reinforcement Learning approach to Autonomous Navigation(改进奖励函数)](https://github.com/bhanuvikasr/Deep-RL-TORCS)<br>
   <br>
   <br>
 ## 个人笔记 <br>
