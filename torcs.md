@@ -35,3 +35,15 @@
      xte 'key Return' <br>
      xte 'usleep 100000' <br>
      xte 'key Return' <br>
+  * 如果你将vision写成False，则需要在训练中禁用了GUI模式，如果只改变vision变量，则不起作用。一种在训练时将TORCS切换到文本模式的方法：
+  修改gym_torcs.py中第33行，os.system('torcs -T -nofuel -nolaptime &')。
+  这里我们为torcs命令添加一个新选项"-T"以启动文本模式。
+  * 如果想重新训练，应该怎么做？<br>
+    删除.h5的文件。
+  * 如果想将视觉作为输入，怎么改？<br>
+       Observation = col.namedtuple('Observaion', names)
+             # Get RGB from observation
+            image_rgb = self.obs_vision_to_image_rgb(raw_obs[names[8]])
+            image_rgb = self.obs_vision_to_image_rgb(raw_obs[names['img']])
+  
+  
