@@ -18,10 +18,20 @@
     A:sudo torcs → click Race → click Practice → click Configure Race → Choose differtent track → click new Race <br>
   必须按ctrl+C才有效。
   * DeepMind团队在深度强化学习论文实验中通常会忽略车身和仪表盘，所以在实验中删除了这些。<br>
-  恢复车身的办法：
-  第280行，grscreen.cpp
-  for(i=1;i<s->_ncars;i++){...}，将i=1改成i=0；<br>
-  恢复后视镜：grscreen.cpp中第361-366行恢复注释；<br>
-  恢复仪表盘：grboard.cpp中第841行-845行恢复注释。<br>
-  编译：代码更改后，必须编译才有效<br>
-  在vtorcs-RL-color下：①.make;②./configure;③sudo make install;④sudo make datainstall
+    恢复车身的办法：
+     第280行，grscreen.cpp
+     for(i=1;i<s->_ncars;i++){...}，将i=1改成i=0；<br>
+    恢复后视镜：grscreen.cpp中第361-366行恢复注释；<br>
+    恢复仪表盘：grboard.cpp中第841行-845行恢复注释。<br>
+   编译：代码更改后，必须编译才有效<br>
+    在vtorcs-RL-color下：①.make;②./configure;③sudo make install;④sudo make datainstall
+  * 如何改变训练的环境，而不只是简单地改变赛道？目前是在"practice"环境下实验，如何添加多车训练，或者用"quick race"环境训练？<br>
+    change 'autostart.sh' to <br>
+     #!/bin/bash <br>
+     xte 'key Return' <br>
+     xte 'usleep 100000' <br>
+     xte 'key Return' <br>
+     xte 'usleep 100000' <br>
+     xte 'key Return' <br>
+     xte 'usleep 100000' <br>
+     xte 'key Return' <br>
