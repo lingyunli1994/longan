@@ -41,9 +41,13 @@
   * 如果想重新训练，应该怎么做？<br>
     删除.h5的文件。
   * 如果想将视觉作为输入，怎么改？<br>
-       Observation = col.namedtuple('Observaion', names)
-             # Get RGB from observation
-            image_rgb = self.obs_vision_to_image_rgb(raw_obs[names[8]])
-            image_rgb = self.obs_vision_to_image_rgb(raw_obs[names['img']])
-  
+       Observation = col.namedtuple('Observaion', names)  <br>
+             # Get RGB from observation   <br>
+            image_rgb = self.obs_vision_to_image_rgb(raw_obs[names[8]])  <br>
+            image_rgb = self.obs_vision_to_image_rgb(raw_obs[names['img']])  <br>
+  您是否将TORCS更改为64x64图像尺寸？ gym_torcs只支持64x64像素模型。 <br>
+  图像从0.0到1.0归一化，使用RGB图像  <br>
+ 我没有执行4次并收集图像，而是保留最后3张图像并连接最新的图像以形成输出的观察结果。（所以尺寸是646412）<br>
+ 在插入全连接层之前，我使用三个带有ReLu的2D卷积层。 这样做会大大减少状态的维度并使训练可行。此外，每个卷积层后面是批量标准化图层。<br>
+对于env E-Road，Agent将在200~300集左右开始执行合理的策略。  <br>
   
