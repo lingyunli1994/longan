@@ -49,6 +49,7 @@
 * [CODE-TORCS for Reinforcement Learning（可能是多车环境）](https://github.com/YurongYou/rlTORCS)<br>
 * [CODE-auto_car_experience_training(DDPG的改进)](https://github.com/QiyuZ/auto_car_experience_training)<br>
 * [CODE-Deep Reinforcement Learning approach to Autonomous Navigation(改进奖励函数)](https://github.com/bhanuvikasr/Deep-RL-TORCS)<br>
+* [CODE-改进网络](https://github.com/ghliu/pytorch-ddpg)<br>
   <br>
   <br>
 ## 个人笔记 <br>
