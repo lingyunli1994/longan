@@ -45,12 +45,12 @@
 * [Caffe学习记录(十一) ICNet分割网络学习](https://www.cnblogs.com/ChrisInsistPy/p/9917842.html)<br>
 * [CODE-ICNet_tensorflow](https://github.com/hellochick/ICNet-tensorflow)<br>
 * [CODE-Keras-ICNet](https://github.com/aitorzip/Keras-ICNet)<br>
-* [CODE-TORCS for Reinforcement Learning（可能是多车环境）](https://github.com/YurongYou/rlTORCS)<br>
 * [CODE-auto_car_experience_training(DDPG的改进)](https://github.com/QiyuZ/auto_car_experience_training)<br>
 * [CODE-Deep Reinforcement Learning approach to Autonomous Navigation(改进奖励函数)](https://github.com/bhanuvikasr/Deep-RL-TORCS)<br>
 * [CODE-改进网络（可能是视觉）](https://github.com/ghliu/DDPG-Keras-Torcs)<br>
 * [CODE-Virtual to Real Reinforcement Learning for Autonomous Driving](https://github.com/xinleipan/VirtualtoReal-RL)<br>
-该论文中用到的虚拟到分割是SegNet,分割到真实是pix2pix，链接是下面这两个
+该论文中用到的强化学习是A3C，虚拟到分割是SegNet,分割到真实是pix2pix，链接是下面这三个
+* [CODE-TORCS for Reinforcement Learning（可能是多车环境）](https://github.com/YurongYou/rlTORCS)<br>
 * [CODE-SegNet and Bayesian SegNet Tutorial](https://github.com/alexgkendall/SegNet-Tutorial)<br>
 * [CODE-pix2pix](https://github.com/phillipi/pix2pix#pix2pix)<br>
 * [CycleGAN和pix2pix的github项目](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)<br>
