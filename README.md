@@ -50,6 +50,9 @@
 * [CODE-Deep Reinforcement Learning approach to Autonomous Navigation(改进奖励函数)](https://github.com/bhanuvikasr/Deep-RL-TORCS)<br>
 * [CODE-改进网络（可能是视觉）](https://github.com/ghliu/DDPG-Keras-Torcs)<br>
 * [CODE-Virtual to Real Reinforcement Learning for Autonomous Driving](https://github.com/xinleipan/VirtualtoReal-RL)<br>
+该论文中用到的虚拟到分割是SegNet,分割到真实是pix2pix，链接是下面这两个
+* [CODE-SegNet and Bayesian SegNet Tutorial](https://github.com/alexgkendall/SegNet-Tutorial)<br>
+* [CODE-pix2pix](https://github.com/phillipi/pix2pix#pix2pix)<br>
 * [CycleGAN和pix2pix的github项目](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)<br>
   <br>
   <br>
