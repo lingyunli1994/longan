@@ -54,6 +54,8 @@
 * [CODE-SegNet and Bayesian SegNet Tutorial](https://github.com/alexgkendall/SegNet-Tutorial)<br>
 * [CODE-pix2pix](https://github.com/phillipi/pix2pix#pix2pix)<br>
 * [CycleGAN和pix2pix的github项目](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)<br>
+* [CODE-CycleGAN-lua](https://github.com/junyanz/CycleGAN)<br>
+* [CODE-CycleGAN-Tensorflow-2-python](https://github.com/LynnHo/CycleGAN-Tensorflow-2)<br>
   <br>
   <br>
 ## 个人笔记 <br>
