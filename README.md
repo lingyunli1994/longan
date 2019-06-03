@@ -17,6 +17,7 @@
 * [非科班转行的2018秋招算法工程师面经：面试实录+人生经验](https://blog.csdn.net/litongwei7601/article/details/80132679)<br>
 * [算法面试和实习经验分享](https://blog.csdn.net/shine19930820/article/details/80098065)<br>
 * [腾讯2016实习生面试经验](https://blog.csdn.net/onever_say_love/article/details/51223886)<br>
+* [19年秋招](https://github.com/zslomo/2019-Autumn-recruitment-experience)<br>
   <br>
   <br>
 ## 深度学习 <br>
